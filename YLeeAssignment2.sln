@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLeeAssignment2", "YLeeAssignment2\YLeeAssignment2.csproj", "{42178564-3567-4A05-9D3A-13B14EA8258C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLeeAssignment2.Tests", "YLeeAssignment2.Tests\YLeeAssignment2.Tests.csproj", "{5142D45F-D9BC-41DF-9AB7-AFDD005EAC2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{42178564-3567-4A05-9D3A-13B14EA8258C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42178564-3567-4A05-9D3A-13B14EA8258C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42178564-3567-4A05-9D3A-13B14EA8258C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5142D45F-D9BC-41DF-9AB7-AFDD005EAC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5142D45F-D9BC-41DF-9AB7-AFDD005EAC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5142D45F-D9BC-41DF-9AB7-AFDD005EAC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5142D45F-D9BC-41DF-9AB7-AFDD005EAC2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,45 +24,32 @@ namespace YLeeAssignment2
         /// <returns></returns>
         public static string Analyze(int inputOne, int inputTwo, int inputThree)
         {
-            StringBuilder builder = new StringBuilder();
-
-            builder.AppendLine();
-            builder.AppendLine("****** REPORT *******");
-
-            if ((inputOne + inputTwo > inputThree) && (inputTwo + inputThree > inputOne) && 
+            if ((inputOne + inputTwo > inputThree) && (inputTwo + inputThree > inputOne) &&
                 (inputOne + inputThree > inputTwo))
             {
-                builder.AppendLine("A. It is a triangle");
-
-                builder.AppendLine();
 
                 if (inputOne == inputTwo || inputTwo == inputThree || inputOne == inputThree)
                 {
                     if ((inputOne == inputTwo) && (inputTwo == inputThree))
                     {
-                        builder.AppendLine("B.Equilateral");
+                        return "Triangle Equilateral";
                     }
                     else
                     {
-                        builder.AppendLine("B. Isosceles");
+                        return "Triangle Isosceles";
                     }
 
                 }
                 else
                 {
-                    builder.AppendLine("B. Scalene");
+                    return "Triangle Scalene";
                 }
 
             }
             else
             {
-                builder.AppendLine("A. It is not a triangle");
+                return "Not a Triangle";
             }
-
-            builder.AppendLine("*********************");
-            builder.AppendLine();
-
-            return builder.ToString();
 
         }
 

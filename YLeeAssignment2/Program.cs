@@ -96,8 +96,12 @@ namespace YLeeAssignment2
                     } while (thirdDimension == -1);
 
                     triangle.SetTriangle(firstDimension, secondDimension, thirdDimension);
-                 
-                    Console.WriteLine(TriangleSolver.Analyze(firstDimension, secondDimension, thirdDimension));            
+
+                    Console.WriteLine();
+                    Console.WriteLine("******** Report *********");
+                    Console.WriteLine(TriangleSolver.Analyze(firstDimension, secondDimension, thirdDimension));
+                    Console.WriteLine();
+                    Console.WriteLine("*************************");
                 }
                 else if(menuSelectFromUser == 2)
                 {
