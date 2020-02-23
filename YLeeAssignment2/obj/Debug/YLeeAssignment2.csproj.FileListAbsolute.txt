@@ -1,0 +1,6 @@
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\bin\Debug\YLeeAssignment2.exe.config
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\bin\Debug\YLeeAssignment2.exe
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\bin\Debug\YLeeAssignment2.pdb
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\obj\Debug\YLeeAssignment2.csprojAssemblyReference.cache
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\obj\Debug\YLeeAssignment2.exe
+C:\Users\yumil\Conestoga\4thSemester\QA\Assignment2\YLeeAssignment2\YLeeAssignment2\obj\Debug\YLeeAssignment2.pdb

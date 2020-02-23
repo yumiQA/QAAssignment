@@ -15,28 +15,33 @@ namespace YLeeAssignment2
 {
     public class Triangle
     {
-        private int triangleDimension;
+        private int firstDimension;
+        private int secondDimension;
+        private int thirdDimension;
 
         public Triangle()
         {
-            triangleDimension = 1;
+            firstDimension = 1;
+            secondDimension = 1;
+            thirdDimension = 1;
         }
 
         public Triangle(int triangleDimension)
         {
-            this.triangleDimension = triangleDimension;
         }
 
-        public int GetTriangle()
+        /// <summary>
+        /// to set triangle values in class
+        /// </summary>
+        /// <param name="firstDimension"></param>
+        /// <param name="secondDimension"></param>
+        /// <param name="thirdDimension"></param>
+        public void SetTriangle(int firstDimension, int secondDimension, int thirdDimension)
         {
-            return triangleDimension;
+            this.firstDimension = firstDimension;
+            this.secondDimension = secondDimension;
+            this.thirdDimension = thirdDimension;
         }
-
-        public void SetTriangle(int triangle)
-        {
-            this.triangleDimension = triangle;
-        }
-
 
     }
 }
